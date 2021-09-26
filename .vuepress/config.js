@@ -93,13 +93,13 @@ module.exports = {
     // 音乐播放器设置
     meting: {
       meting: {
-        auto: 'https://music.163.com/#/playlist?id=5312894314',
+        auto: 'https://music.163.com/#/song?id=4885285',
         server: 'netease',
-        type: 'playlist',
-        mid: '5312894314'
+        type: 'song',
+        mid: '4885285'
       },
       aplayer: {
-        order: 'random',
+        order: 'list',
         lrcType: 0,
         volume: 0.15,
         mini: true,
