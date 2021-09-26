@@ -1,6 +1,6 @@
 module.exports = {
   title: 'RealHeng',
-  description: "RealHeng's blog",
+  description: "是谁来自山川湖海，却囿于厨房与爱。",
   dest: 'public',
   head: [
     [
@@ -93,13 +93,13 @@ module.exports = {
     // 音乐播放器设置
     meting: {
       meting: {
-        auto: 'https://music.163.com/#/song?id=4885285',
+        auto: 'https://music.163.com/#/playlist?id=6990109713',
         server: 'netease',
-        type: 'song',
-        mid: '4885285'
+        type: 'playlist',
+        mid: '6990109713'
       },
       aplayer: {
-        order: 'list',
+        order: 'random',
         lrcType: 0,
         volume: 0.15,
         mini: true,

@@ -3,17 +3,25 @@ home: true
 # heroText: vuepress-theme-reco
 # tagline: A simple and beautiful vuepress blog theme.
 # heroImage: https://gitee.com/leoyzh/imgbed/raw/master/img/20210926104301.jpg
-heroImageStyle: {
-  maxWidth: '600px',
-  width: '100%',
-  display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
-}
+# heroImageStyle: {
+#   maxWidth: '600px',
+#   width: '100%',
+#   display: block,
+#   margin: '9rem auto 2rem',
+#   background: '#fff',
+#   borderRadius: '1rem',
+# }
 bgImageStyle: {
-  height: '450px'
+    margin: '3.6rem auto 0',
+    position: 'relative',
+    box-sizing: 'border-box',
+    padding: '0 20px',
+    height: '100vh',
+    display: 'flex',
+    align-items: 'center',
+    justify-content: 'center',
 }
+bgImage: '/bg.jpg'
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
