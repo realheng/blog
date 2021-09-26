@@ -106,14 +106,6 @@ module.exports = {
         autoplay: true
       }
     },
-    // 动态标题配置
-    'dynamic-title': {
-      showIcon: '/favicon.ico',
-      showText: '(/≧▽≦/)咦！又好了！',
-      hideIcon: '/failure.ico',
-      hideText: '(●—●)喔哟，崩溃啦！',
-      recoverTime: 2000
-    },
     // 修复中文命名
     'permalink-pinyin': {
       lowercase: true, // Converted into lowercase, default: true
