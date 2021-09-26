@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         text:'专栏',
-        icon:'reco-document',
+        icon:'reco-category',
         items:[
           {
             text:'脚手架',
