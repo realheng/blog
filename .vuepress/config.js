@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "yasha",
-  "description": "yasha的博客",
+  "title": "RealHeng",
+  "description": "RealHeng's blog",
   "dest": "public",
   "head": [
     [
@@ -72,28 +72,13 @@ module.exports = {
         "text": "Tag"
       }
     },
-    "friendLink": [
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
-    "logo": "/logo.png",
+    "logo": "https://gitee.com/leoyzh/imgbed/raw/master/img/20210926104301.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "yasha",
-    "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    "author": "RealHeng",
+    "authorAvatar": "https://gitee.com/leoyzh/imgbed/raw/master/img/20210926104301.jpg",
+    "startYear": "2021",
   },
   "markdown": {
     "lineNumbers": true
