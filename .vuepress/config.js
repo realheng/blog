@@ -67,7 +67,7 @@ module.exports = {
     type: 'blog',
     blogConfig: {
       tag: {
-        location: 2,
+        location: 5,
         text: 'Tag'
       }
     },
