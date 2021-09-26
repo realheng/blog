@@ -78,5 +78,27 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
+  },
+  plugins: {
+    // live2d 插件配置
+    'vuepress-plugin-helper-live2d': {
+      // 是否开启控制台日志打印(default: false)
+      log: true,
+      live2d: {
+        // 是否启用(关闭请设置为false)(default: true)
+        enable: true,
+        // 模型名称(default: koharu)
+        model: 'koharu',
+        display: {
+          vOffset: -55 //  垂直偏移(default: 0)
+        },
+        mobile: {
+          show: false // 是否在移动设备上显示(default: false)
+        },
+        react: {
+          opacity: 0.8 // 模型透明度(default: 0.8)
+        }
+      }
+    }
   }
 }
