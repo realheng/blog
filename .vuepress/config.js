@@ -1,6 +1,6 @@
 module.exports = {
   title: 'RealHeng',
-  description: "是谁来自山川湖海，却囿于厨房与爱。",
+  description: "是谁来自山川湖海，却囿于昼夜厨房与爱。",
   dest: 'public',
   head: [
     [
@@ -19,27 +19,37 @@ module.exports = {
     ]
   ],
   theme: 'reco',
+  // subSidebar: 'auto',
   themeConfig: {
     nav: [
       {
-        text: 'Home',
+        text: '首页',
         link: '/',
         icon: 'reco-home'
       },
       {
-        text: 'TimeLine',
-        link: '/timeline/',
-        icon: 'reco-date'
+        text:'日常',
+        icon:'reco-document',
+        link:'/日常/01-2021-09.md'
       },
       {
-        text: 'Docs',
-        icon: 'reco-message',
-        items: [
+        text:'专栏',
+        icon:'reco-document',
+        items:[
           {
-            text: 'vuepress-reco',
-            link: '/docs/theme-reco/'
+            text:'脚手架',
+            link:'/专栏/脚手架/01-scaffold.md'
+          },
+          {
+            text:'React',
+            link:'/专栏/React/01-React.md'
           }
         ]
+      },
+      {
+        text: '时间线',
+        link: '/timeline/',
+        icon: 'reco-date'
       },
       {
         text: 'Contact',
@@ -47,23 +57,17 @@ module.exports = {
         items: [
           {
             text: 'GitHub',
-            link: 'https://github.com/recoluan',
+            link: 'https://github.com/realheng',
             icon: 'reco-github'
           }
         ]
       }
     ],
-    sidebar: {
-      '/docs/theme-reco/': ['', 'theme', 'plugin', 'api']
-    },
+    subSidebar: 'auto',
     type: 'blog',
     blogConfig: {
-      category: {
-        location: 2,
-        text: 'Category'
-      },
       tag: {
-        location: 3,
+        location: 2,
         text: 'Tag'
       }
     },
@@ -119,7 +123,7 @@ module.exports = {
         // 是否启用(关闭请设置为false)(default: true)
         enable: true,
         // 模型名称(default: koharu)
-        model: 'tororo',
+        model: 'koharu',
         display: {
           vOffset: -55 //  垂直偏移(default: 0)
         },
