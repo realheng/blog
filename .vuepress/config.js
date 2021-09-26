@@ -80,6 +80,45 @@ module.exports = {
     lineNumbers: true
   },
   plugins: {
+    // 自动生成侧边栏
+    'vuepress-plugin-auto-sidebar': {
+      titleMap: {}
+    },
+    // 鼠标点击特效
+    'cursor-effects': {
+      size: 2, // size of the particle, default: 2
+      shape: 'star', // shape of the particle, default: 'star', 'star' | 'circle'
+      zIndex: 999999999 // z-index property of the canvas, default: 999999999
+    },
+    // 音乐播放器设置
+    meting: {
+      meting: {
+        auto: 'https://music.163.com/#/playlist?id=5312894314',
+        server: 'netease',
+        type: 'playlist',
+        mid: '5312894314'
+      },
+      aplayer: {
+        order: 'random',
+        lrcType: 0,
+        volume: 0.15,
+        mini: true,
+        autoplay: true
+      }
+    },
+    // 动态标题配置
+    'dynamic-title': {
+      showIcon: '/favicon.ico',
+      showText: '(/≧▽≦/)咦！又好了！',
+      hideIcon: '/failure.ico',
+      hideText: '(●—●)喔哟，崩溃啦！',
+      recoverTime: 2000
+    },
+    // 修复中文命名
+    'permalink-pinyin': {
+      lowercase: true, // Converted into lowercase, default: true
+      separator: '-' // Separator of the slug, default: '-'
+    },
     // live2d 插件配置
     'vuepress-plugin-helper-live2d': {
       // 是否开启控制台日志打印(default: false)
@@ -88,7 +127,7 @@ module.exports = {
         // 是否启用(关闭请设置为false)(default: true)
         enable: true,
         // 模型名称(default: koharu)
-        model: 'koharu',
+        model: 'tororo',
         display: {
           vOffset: -55 //  垂直偏移(default: 0)
         },
