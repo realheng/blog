@@ -1,7 +1,8 @@
 module.exports = {
   title: 'RealHeng',
-  description: "是谁来自山川湖海，却囿于昼夜厨房与爱。",
+  description: '是谁来自山川湖海，却囿于昼夜厨房与爱。',
   dest: 'public',
+  base: '/blog/',
   head: [
     [
       'link',
@@ -28,21 +29,21 @@ module.exports = {
         icon: 'reco-home'
       },
       {
-        text:'日常',
-        icon:'reco-document',
-        link:'/日常/01-2021-09.md'
+        text: '日常',
+        icon: 'reco-document',
+        link: '/日常/01-2021-09.md'
       },
       {
-        text:'专栏',
-        icon:'reco-category',
-        items:[
+        text: '专栏',
+        icon: 'reco-category',
+        items: [
           {
-            text:'脚手架',
-            link:'/专栏/脚手架/01-scaffold.md'
+            text: '脚手架',
+            link: '/专栏/脚手架/01-scaffold.md'
           },
           {
-            text:'React',
-            link:'/专栏/React/01-React.md'
+            text: 'React',
+            link: '/专栏/React/01-React.md'
           }
         ]
       },
