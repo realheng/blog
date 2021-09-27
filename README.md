@@ -21,7 +21,7 @@ bgImageStyle: {
     align-items: 'center',
     justify-content: 'center',
 }
-bgImage: '/bg.jpg'
+bgImage: '/bg.jpeg'
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
